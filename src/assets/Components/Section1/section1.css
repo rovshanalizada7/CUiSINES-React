@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+.section1{
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+.background{
+    width: 847px;
+    height: 700px;
+    background-color: #120078;
+}
+.section1-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 900px;
+    height: 600px;
+    background-image: url("https://preview.colorlib.com/theme/cuisines/images/hero_1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.section1-content{
+    position: absolute;
+    top: 6rem;
+    left: 13rem;
+    z-index: 2;
+    width: 594px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section1-content .heading {
+    font-family: "Oswald", sans-serif, sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 100%;
+}
+.btns{
+    margin-bottom: 1.7rem;
+}
+.btn1{
+    background-color: #fff;
+    color: #120078;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+.btn1:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s;
+}
+.btn2{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}

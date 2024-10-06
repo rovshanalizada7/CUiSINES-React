@@ -1,0 +1,63 @@
+aside{
+    width: 18%;
+    height: 740px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    position: fixed;
+}
+
+aside .logo {
+    height: 93px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside nav {
+    height: 176px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a {
+    font-weight: 700;
+    color: #000;
+}
+
+aside .contact {
+    height: 94px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+.caption,.open {
+    color: #afafaf;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.open{
+    font-size: 11px;
+}
+.phone-number{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
