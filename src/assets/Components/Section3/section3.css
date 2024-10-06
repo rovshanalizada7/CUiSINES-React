@@ -58,6 +58,7 @@ h3{
 .content ,.btn {
     margin-top: 0 !important;
     display: flex !important;
+    --bs-btn-padding-x:0 !important;
 }
 .content  .btn a {
     color: #fff;
@@ -74,7 +75,6 @@ h3{
 .section3-corusel{
     width: 706px;
     height: 454px;
-    background-color: aqua;
     position: relative;
     z-index: 2;
     margin-right: 1rem;
@@ -83,6 +83,16 @@ h3{
 .carousel-inner,.carousel{
  width: 100% !important;
  height: 100% !important;
+}
+.section3 .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.section3 .carousel-indicators {
+    position: absolute;
+    bottom: -3rem;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon  {
    background-image: none !important;

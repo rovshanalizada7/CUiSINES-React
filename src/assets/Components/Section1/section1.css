@@ -80,3 +80,8 @@
     font-size: 1rem;
     border-radius: 0.25rem;
 }
+.btn2:hover{
+    background-color: #fff;
+    transition: 0.5s;
+    color: #120078;
+}

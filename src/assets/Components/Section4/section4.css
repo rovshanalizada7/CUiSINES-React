@@ -1,0 +1,75 @@
+.section4 {
+    height: 673px;
+    width: 100%;
+    background-color:#E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4-content {
+    height: 450px;
+    width: 100%;
+}
+.text-center {
+    height: 90px;
+}
+.text-center .subheading {
+    font-size: 12px;
+    color: #120078;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.text-center .heading {
+    font-family: "Oswald", sans-serif, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.testimonials {
+    height: 325px;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.carousel-inner{
+  height: 100%;
+}
+.section4 .carousel-item img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    height: 100%;
+}
+.carousel-caption{
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-caption p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.carousel-caption span {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.section4 .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.section4 .carousel-indicators .active {
+    background-color: #120078;
+}
+.section4 .carousel-indicators button {
+    background-color: grey;
+}

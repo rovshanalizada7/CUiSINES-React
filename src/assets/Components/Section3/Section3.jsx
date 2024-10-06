@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Section3/section3.css"
 import { TiTick } from "react-icons/ti";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -42,7 +43,6 @@ const Section3 = () => {
         </Carousel.Item>
         <Carousel.Item>
             <img src="https://preview.colorlib.com/theme/cuisines/images/hero_1.jpg" style={{backgroundPosition:"center",backgroundSize:"cover",height:"100%",width:"100%"}} alt="" />
-            
         </Carousel.Item>
         </Carousel>
         </div>
