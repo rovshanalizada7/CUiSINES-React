@@ -28,14 +28,14 @@ const Section4 = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://preview.colorlib.com/theme/cuisines/images/person_sq_1.jpg" alt="" />
+        <img src="https://preview.colorlib.com/theme/cuisines/images/person_sq_2.jpg" alt="" />
         <Carousel.Caption>
         <p style={{width:"500px"}}>
             P“Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quisquam ut, quis laborum tenetur odit dolor quos minus in, 
             ducimus quaerat repellendus laudantium rem accusantium magni est.”
           </p>
-          <span class="d-block font-weight-bold">Sheena Smith</span>
+          <span class="d-block font-weight-bold">Ben Miller</span>
           <span class="position">Customer</span>
         </Carousel.Caption>
       </Carousel.Item>

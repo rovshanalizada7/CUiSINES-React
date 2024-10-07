@@ -1,5 +1,28 @@
-.section2{
-    height: 930px;
-    width: 100%;
+.food-section{
     background-color: #EFEFEF;
+    padding: 1.7rem 0;
+    position: relative;
+}
+.dark{
+    background-color: black; 
+    color: #EFEFEF; 
+}
+.food-section .mode {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    border: 2px solid grey;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.section2{
+    /* height: 930px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
 }
