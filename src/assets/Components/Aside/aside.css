@@ -37,6 +37,28 @@ nav ul li a {
     font-weight: 700;
     color: #000;
 }
+nav ul li {
+    position: relative;
+}
+nav ul li::before{
+ content: "";
+ width: 0;
+ position: absolute;
+ bottom: -5px;
+ height: 3px;
+ background-color: #000;
+}
+nav ul li:hover::before{
+animation: anime .5s;
+}
+
+@keyframes anime {
+    from{
+        width: 0;
+    }to {
+        width: 100%;
+    }
+}
 
 aside .contact {
     height: 94px;
