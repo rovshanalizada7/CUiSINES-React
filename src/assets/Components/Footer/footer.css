@@ -58,6 +58,7 @@ footer{
 .footer-bottom p {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+    padding-top: 1.7rem;
 }
 .footer-bottom p a {
     color: #fff;
